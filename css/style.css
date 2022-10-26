@@ -1,0 +1,265 @@
+@charset "UTF-8";
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+header {
+  height: 27vh;
+  width: 100vw;
+  background-color: #f3b7b9;
+}
+
+main {
+  height: 130vh;
+  width: 100vw;
+  background-color: #d2b3d4;
+}
+main fieldset {
+  text-align: center;
+  margin-top: 55px;
+}
+main label {
+  font-family: "mandalitos";
+  color: yellowgreen;
+}
+main legend {
+  font-family: "mandalitos";
+  font-size: 45px;
+  text-decoration: underline;
+  color: lightcoral;
+}
+main p {
+  font-family: "mandalitos";
+  font-size: 60px;
+}
+main h1 {
+  text-align: center;
+  font-family: "mandalitos";
+  font-size: 50px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+footer {
+  height: 40vh;
+  width: 100vw;
+  background-color: #cee2b1;
+}
+footer div div div div ul {
+  list-style: none;
+  margin-top: 20px;
+}
+footer div div div div ul a {
+  text-decoration: none;
+  color: fuchsia;
+}
+footer .fs-3 {
+  font-family: "mandalitos";
+}
+
+#nav {
+  margin-right: 40px;
+}
+
+#textcomp {
+  font-family: "mandalitos";
+  margin-top: 100px;
+}
+
+#textcomp2 {
+  font-family: "mandalitos";
+}
+
+#wapp {
+  width: 32px;
+  height: 32px;
+}
+
+#medPag {
+  width: 290px;
+  height: 120px;
+}
+
+#transition {
+  width: 500px;
+  height: 200px;
+  background-color: transparent;
+  margin-top: 50px;
+}
+
+#transition:hover {
+  padding: 20px;
+  -webkit-transform: rotateX(360deg);
+          transform: rotateX(360deg);
+}
+
+#imgTamaño {
+  width: 840px;
+  height: 585px;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+#vid1 {
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+#vid2 {
+  margin-left: 5px;
+  margin-top: 50px;
+}
+
+
+.bton {
+  width: 200px;
+  height: 50px;
+  margin-left: 50px;
+  background-color: aquamarine;
+}
+
+.bton1 {
+  width: 200px;
+  height: 180px;
+  margin-left: 200px;
+  margin-top: 70px;
+}
+
+.bton2 {
+  width: 50px;
+  height: 30px;
+  margin-left: 20px;
+  background-color: transparent;
+  border-radius: 3px;
+}
+
+.caja1 {
+  display: block;
+  width: 30%;
+  float: right;
+  padding: 1em;
+}
+
+.card {
+  background-color: transparent;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+.card:hover {
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card-img-top {
+  width: 150px;
+  height: 150px;
+}
+
+.card-text {
+  font-size: small;
+}
+
+@font-face {
+  font-family: "mandalitos";
+  src: url(../font/fontastique.ttf);
+}
+
+@media only screen and (min-width:576px){
+
+  
+  main {
+    height: 130%;
+  }
+  footer {
+    height: 60%;
+  }
+  #imgTamaño {
+    width: 65%;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  
+  #vid1 {
+    margin-left: 21%;
+    margin-top: 50px;
+  }
+  
+  #vid2 {
+    margin-left: -80%;
+    margin-top: 50%;
+  }
+  #comentario {
+    width: 70%;
+  }
+  
+}
+
+@media only screen and (min-width:768px){
+
+  
+  main {
+    height: 130%;
+  }
+  footer {
+    height: 30%;
+  }
+  #imgTamaño {
+    width: 55%;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  
+  #vid1 {
+    margin-left: 21%;
+    margin-top: 50px;
+  }
+  
+  #vid2 {
+    margin-left: -80%;
+    margin-top: 30%;
+  }
+  
+}
+
+@media only screen and (min-width:992px){
+    main {
+      height: 130%;
+    }
+    footer {
+      height: 35%;
+    }
+    #imgTamaño {
+      width: 75%;
+      height: 585px;
+      object-fit: cover;
+      margin-left: 170px;
+      margin-top: 20px;
+    }
+    
+    #vid1 {
+      margin-left: 20%;
+      margin-top: 50px;
+    }
+    
+    #vid2 {
+      margin-left: 5px;
+      margin-top: 50px;
+    }
+    
+    #comentario {
+      width: 80%;
+    }
+
+    #nos {
+      font-size: medium;
+    }
+  
+}
+
