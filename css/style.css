@@ -1,62 +1,8 @@
 @charset "UTF-8";
 body {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   overflow-x: hidden;
-}
-
-header {
-  height: 27vh;
-  width: 100vw;
-  background-color: #f3b7b9;
-}
-
-main {
-  height: 130vh;
-  width: 100vw;
-  background-color: #d2b3d4;
-}
-main fieldset {
-  text-align: center;
-  margin-top: 55px;
-}
-main label {
-  font-family: "mandalitos";
-  color: yellowgreen;
-}
-main legend {
-  font-family: "mandalitos";
-  font-size: 45px;
-  text-decoration: underline;
-  color: lightcoral;
-}
-main p {
-  font-family: "mandalitos";
-  font-size: 60px;
-}
-main h1 {
-  text-align: center;
-  font-family: "mandalitos";
-  font-size: 50px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-}
-
-footer {
-  height: 40vh;
-  width: 100vw;
-  background-color: #cee2b1;
-}
-footer div div div div ul {
-  list-style: none;
-  margin-top: 20px;
-}
-footer div div div div ul a {
-  text-decoration: none;
-  color: fuchsia;
-}
-footer .fs-3 {
-  font-family: "mandalitos";
 }
 
 #nav {
@@ -65,10 +11,11 @@ footer .fs-3 {
 
 #textcomp {
   font-family: "mandalitos";
-  margin-top: 100px;
+  margin-top: 15px;
 }
 
 #textcomp2 {
+  margin-top: 50px;
   font-family: "mandalitos";
 }
 
@@ -96,22 +43,9 @@ footer .fs-3 {
 }
 
 #imgTamaño {
-  width: 840px;
-  height: 585px;
-  margin-left: 200px;
-  margin-top: 20px;
+  width: 100%;
+  height: 50%;
 }
-
-#vid1 {
-  margin-left: 200px;
-  margin-top: 50px;
-}
-
-#vid2 {
-  margin-left: 5px;
-  margin-top: 50px;
-}
-
 
 .bton {
   width: 200px;
@@ -135,14 +69,12 @@ footer .fs-3 {
   border-radius: 3px;
 }
 
-.caja1 {
-  display: block;
-  width: 30%;
-  float: right;
-  padding: 1em;
-}
-
 .card {
+  width: 65%;
+  margin: 90px;
+  padding: 10px;
+  border-radius: 30px;
+  border-color: rgb(201, 51, 176);
   background-color: transparent;
   -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
@@ -151,115 +83,73 @@ footer .fs-3 {
 }
 
 .card:hover {
-  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-}
-
-.card-img-top {
-  width: 150px;
-  height: 150px;
+  -webkit-box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.4);
+          box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.4);
 }
 
 .card-text {
   font-size: small;
 }
 
+header {
+  height: 50%;
+  width: 100%;
+  background-color: #f3b7b9;
+}
+
+main {
+  height: 70%;
+  width: 100%;
+  background-color: transparent;
+}
+main fieldset {
+  text-align: center;
+  margin-top: 35px;
+}
+main label {
+  font-family: "mandalitos";
+  color: lightcoral;
+}
+main legend {
+  font-family: "mandalitos";
+  font-size: 20px;
+  text-decoration: underline;
+  color: lightcoral;
+}
+main p {
+  font-family: "mandalitos";
+}
+main h1 {
+  text-align: center;
+  font-family: "mandalitos";
+  font-size: 30px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: lightcoral;
+}
+main h5 {
+  font-family: "mandalitos";
+  font-size: x-large;
+}
+
+footer {
+  height: 40%;
+  width: 100%;
+  background-color: #f3b7b9;
+}
+footer div div div div ul {
+  list-style: none;
+  margin-top: 20px;
+}
+footer div div div div ul a {
+  text-decoration: none;
+  color: fuchsia;
+}
+footer .fs-3 {
+  font-family: "mandalitos";
+}
+
 @font-face {
   font-family: "mandalitos";
   src: url(../font/fontastique.ttf);
 }
-
-@media only screen and (min-width:576px){
-
-  
-  main {
-    height: 130%;
-  }
-  footer {
-    height: 60%;
-  }
-  #imgTamaño {
-    width: 65%;
-    height: auto;
-    margin-left: 100px;
-    margin-top: 20px;
-  }
-  
-  #vid1 {
-    margin-left: 21%;
-    margin-top: 50px;
-  }
-  
-  #vid2 {
-    margin-left: -80%;
-    margin-top: 50%;
-  }
-  #comentario {
-    width: 70%;
-  }
-  
-}
-
-@media only screen and (min-width:768px){
-
-  
-  main {
-    height: 130%;
-  }
-  footer {
-    height: 30%;
-  }
-  #imgTamaño {
-    width: 55%;
-    height: auto;
-    margin-left: 100px;
-    margin-top: 20px;
-  }
-  
-  #vid1 {
-    margin-left: 21%;
-    margin-top: 50px;
-  }
-  
-  #vid2 {
-    margin-left: -80%;
-    margin-top: 30%;
-  }
-  
-}
-
-@media only screen and (min-width:992px){
-    main {
-      height: 130%;
-    }
-    footer {
-      height: 35%;
-    }
-    #imgTamaño {
-      width: 75%;
-      height: 585px;
-      object-fit: cover;
-      margin-left: 170px;
-      margin-top: 20px;
-    }
-    
-    #vid1 {
-      margin-left: 20%;
-      margin-top: 50px;
-    }
-    
-    #vid2 {
-      margin-left: 5px;
-      margin-top: 50px;
-    }
-    
-    #comentario {
-      width: 80%;
-    }
-
-    #nos {
-      font-size: medium;
-    }
-  
-}
-

@@ -13,7 +13,7 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand bg-transparent" id="nav">
+    <nav class="navbar navbar-expand-md navbar-light bg-transparent" id="nav">
       <div class="container-fluid">
         <a class="navbar-brand"> <img src="../assets/imagenes/logocolor-01.png" width="200" height="200" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,16 +22,45 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="../index.html"><button type="button" class="btn btn-outline-light"
-                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-          Volver
-        </button></a>
-            
+              <a class="nav-link active" aria-current="page" href="./nosotros.html"><button type="button" class="btn btn-outline-light"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            Nosotros
+          </button></a>
             </li>
-          
+            <li class="nav-item">
+              <a class="nav-link" href="./grafica.html"><button type="button" class="btn btn-outline-light"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            Grafica
+          </button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sublimados.html"><button type="button" class="btn btn-outline-light"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            Sublimados
+          </button></a>
+            </li><li class="nav-item">
+              <a class="nav-link" href="./ComoComprar.html"><button type="button" class="btn btn-outline-light"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            Como comprar
+          </button></a>
+            </li><li class="nav-item">
+              <a class="nav-link" href="./contacto.html"><button type="button" class="btn btn-outline-light"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            Contacto
+          </button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html"><button type="button" class="btn btn-outline-light"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            Inicio
+          </button></a>
+            </li>
             
           </ul>
-          
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="buscar" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-danger" type="submit">Buscar</button>
+          </form>
         </div>
       </div>
     </nav>
@@ -49,18 +78,18 @@
 
     
     <div>
-        <label for="nombre">INGRESE NOMBRE</label>
+        <label for="nombre">NOMBRE</label>
         <input type="text" id="Nombre" >
     </div>
         <div>
 
-<label for="apellido">INGRESE APELLIDO</label>
+<label for="apellido">APELLIDO</label>
 <input type="text" id="Apellido" >
 
         </div>
 
     <div>
-        <label for="email">INGRESE EMAIL</label>
+        <label for="email">      EMAIL</label>
         <input type="text" id="ingrese email" >
     </div>
     
@@ -73,7 +102,7 @@
     
        <legend>Dejanos tu consulta</legend>
     
-    <textarea name="comentario" id="comentario" cols="100" rows="10" ></textarea>
+    <textarea name="comentario" id="comentario" cols="50" rows="5" ></textarea>
 
 <div>
     

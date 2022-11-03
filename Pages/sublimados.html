@@ -12,8 +12,11 @@
 </head>
 
 <body>
+
+                        <!-- HEADER -->
+
   <header>
-    <nav class="navbar navbar-expand bg-transparent" id="nav">
+    <nav class="navbar navbar-expand-md navbar-light bg-transparent" id="nav">
       <div class="container-fluid">
         <a class="navbar-brand"> <img src="../assets/imagenes/logocolor-01.png" width="200" height="200" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,106 +25,120 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./nosotros.html"><button type="button" class="btn btn-outline-light"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            Nosotros
+          </button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./grafica.html"><button type="button" class="btn btn-outline-light"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            Grafica
+          </button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sublimados.html"><button type="button" class="btn btn-outline-light"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            Sublimados
+          </button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./ComoComprar.html"><button type="button" class="btn btn-outline-light"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            Como comprar
+          </button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html"><button type="button" class="btn btn-outline-light"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            Contacto
+          </button></a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="../index.html"><button type="button" class="btn btn-outline-light"
-                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-          Volver
-        </button></a>
-            
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            Inicio
+          </button></a>
             </li>
           
             
           </ul>
-          
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="buscar" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-danger" type="submit">Buscar</button>
+          </form>
         </div>
       </div>
     </nav>
 </header>
 
+                                  <!-- MAIN CON SU CONJUNTO DE CARDS -->
 
     <main>
 
-      <div class="col">
-           
-     
-        <div>
-        <div class="caja1"><div class="card" style="width: 153px;">
-         <img src="../assets/imagenes/sublimamdos/41.jpg" class="card-img-top" alt="...">
-         <div class="card-body">
-           <p class="card-text">Remeras personalizadas con el diseño que desees</p>
-           <a href="#" class="btn bg-transparent">
-           
-             
-           </a>
-         </div>
-       </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="../assets/imagenes/sublimamdos/4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">$2000</h5>
+              <p class="card-text fs-6 text-center">Remeras Infantiles de Spum. Para cumpleaños, Egresaditos. 
+                (Consultar variedad de colores y talles)
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../assets/imagenes/sublimamdos/5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">$7000</h5>
+              <p class="card-text fs-6 text-center">Almohadon para colorear y lavar. El precio corresponde a 10 unidades de 30cmx30cm. Consultar otros tamaños.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../assets/imagenes/sublimamdos/6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">$3500</h5>
+              <p class="card-text fs-6 text-center">Set de Jardín. Incluye 6 piezas: Individual de 20x30cm, Servilleta de 20x20cm, Toalla, Plato, Taza y cuchara. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../assets/imagenes/sublimamdos/7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">$3500</h5>
+              <p class="card-text fs-6 text-center">Rompecabeza de 6 piezas. El precio corresponde a 10 Unidades. Consultar por 12 y 30 Piezas. Incluye bolsa de tela.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../assets/imagenes/sublimamdos/8.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">$1800</h5>
+              <p class="card-text fs-6 text-center">Gorras Trucker de niños y adultos. Consultar variedad de colores disponibles. El precio corresponde a una unidad para Adultos. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../assets/imagenes/sublimamdos/9.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">$1800</h5>
+              <p class="card-text fs-6 text-center">Tazas de cerámica importadas. Opción agregar caja para regalo, y dulces (+$700). Consultar por tazas plásticas.</p>
+            </div>
+          </div>
+        </div>
       </div>
-    
-        <div>
-        <div class="caja1"><div class="card" style="width: 153px;">
-         <img src="../assets/imagenes/sublimamdos/42.jpg" class="card-img-top" alt="...">
-         <div class="card-body">
-           <p class="card-text">Souvenirs, aqui unos almohadones personalizados para pintar </p>
-           <a href="#" class="btn bg-transparent"> </a>
-         </div>
-       </div>
-      </div>
-    
-        <div>
-        <div class="caja1"><div class="card" style="width: 153px;">
-         <img src="../assets/imagenes/sublimamdos/43.jpg" class="card-img-top" alt="...">
-         <div class="card-body">
-           <p class="card-text">Gorras personalizadas, de varios colores, talle niño y adulto</p>
-           <a href="#" class="btn bg-transparent"> </a>
-         </div>
-       </div>  
-      </div>
-    
-        <div>
-        <div class="caja1"><div class="card" style="width: 153px;">
-         <img src="../assets/imagenes/sublimamdos/44.jpg" class="card-img-top" alt="...">
-         <div class="card-body">
-           <p class="card-text">Tazas de ceramica sublimadas para hacer el mejor regalo. Consultar por tazas de plastico</p>
-           <a href="#" class="btn bg-transparent"> </a>
-         </div>
-       </div>
-      </div>
-       
-        <div>
-        <div class="caja1"><div class="card" style="width: 153px;">
-         <img src="../assets/imagenes/sublimamdos/45.jpg" class="card-img-top" alt="...">
-         <div class="card-body">
-           <p class="card-text">Rompecabezas sublimados personalizados, ideales para souvenir o regalo. De varios tamaños</p>
-           <a href="#" class="btn bg-transparent"> </a>
-         </div>
-       </div>
-      </div>
-    
-        <div>
-        <div class="caja1"><div class="card" style="width: 153px;">
-         <img src="../assets/imagenes/sublimamdos/46.jpg" class="card-img-top" alt="...">
-         <div class="card-body">
-           <p class="card-text">Set de jardin personalizados con el diseño que elijas, traen taza plastica, cuchara,mantel y servilleta</p>
-           <a href="#" class="btn bg-transparent"></a>
-         </div>
-       </div>
-      </div>
-    </div>
-       
-   
-
-        <!-- <div class="caja"><img src="#" alt=""></div>
-     <div class="caja"><img src="#" alt=""></div>
-     <div class="caja"><img src="#" alt=""></div>
-     <div class="caja"><img src="../assets/imagenes/sublimamdos/41.jpg" alt=""></div>
-     <div class="caja"><img src="../assets/imagenes/sublimamdos/42.jpg" alt=""></div>
-     <div class="caja"><img src="../assets/imagenes/sublimamdos/43.jpg" alt=""></div>
-     <div class="caja"><img src="../assets/imagenes/sublimamdos/44.jpg" alt=""></div>
-     <div class="caja"><img src="../assets/imagenes/sublimamdos/45.jpg" alt=""></div>
-     <div class="caja"><img src="../assets/imagenes/sublimamdos/46.jpg" alt=""></div>
-     
-      -->
+      
         
     </main>
+
+                          <!-- FOOTER -->
 
     <footer class="container-fluid">
         <div class="row"> 
